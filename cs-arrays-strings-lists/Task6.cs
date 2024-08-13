@@ -8,7 +8,7 @@ namespace cs_arrays_strings_lists
 {
     public class Task6
     {
-        public static string SwapLastInstanceCase(string[] words)
+        public static string SwapLastInstanceCase(string[] words, string searchString)
         {
             return ""; //change code here
         }
