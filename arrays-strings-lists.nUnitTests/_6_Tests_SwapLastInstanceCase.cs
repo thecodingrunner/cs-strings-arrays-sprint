@@ -15,16 +15,18 @@ namespace arrays_strings_lists.nUnitTests
         public static void SwapLastInstanceCase_OneInstance()
         {
             string[] input = { "These", "yellow", "cars", "are", "great", "yellow", "cars" };
+            string searchTerm = "yellow";
             string expected = "These yellow cars are great YELLOW cars";
-            var result = Task6.SwapLastInstanceCase(input);
+            var result = Task6.SwapLastInstanceCase(input, searchTerm);
             Assert.That(result, Is.EqualTo(expected));
         }
         [Test]
         public static void SwapLastInstanceCase_MultipleInstances()
         {
             string[] input = { "I", "LOVE", "CROWS", "BECAUSE", "CROWS", "ARE", "GREAT" };
+            string searchTerm = "crows";
             string expected = "I LOVE CROWS BECAUSE crows ARE GREAT";
-            var result = Task6.SwapLastInstanceCase(input);
+            var result = Task6.SwapLastInstanceCase(input,searchTerm);
             Assert.That(result, Is.EqualTo(expected));
         }
     }
