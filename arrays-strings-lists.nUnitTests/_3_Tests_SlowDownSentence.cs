@@ -16,7 +16,7 @@ namespace arrays_strings_lists.nUnitTests
         public void SlowDownSentence_OneWord()
         {
             string input = "hello";
-            string expected = "hello...";
+            string expected = "hello... ";
             string result = Task3.SlowDownSentence(input);
             Assert.That(result, Is.EqualTo(expected));
         }
