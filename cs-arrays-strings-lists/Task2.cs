@@ -10,11 +10,16 @@ namespace cs_arrays_strings_lists
     {
         public static int FindIndex(string inputToFind, string stringToSearch)
         {
-            return 0; //change code here
+            //char charToFind = inputToFind.ToCharArray()[0];
+            return stringToSearch.IndexOf(inputToFind);
         }
         public static bool IsFriendHere(List<string> friends, string friendToFind)
         {
-            return false; //change code here
+            foreach (string friend in friends)
+            {
+                if (friend == friendToFind) return true;
+            }
+            return false;
         }
     }
 }
