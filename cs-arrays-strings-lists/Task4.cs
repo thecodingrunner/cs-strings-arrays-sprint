@@ -10,7 +10,9 @@ namespace cs_arrays_strings_lists
     {
         public static string ReturnWordsBetweenParentheses(string input)
         {
-            return ""; //change code here
+            string[] output = input.Split('(',')');
+            
+            return output[1]; //change code here
         }
     }
 }

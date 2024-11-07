@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Finn\\.nuget\\packages\\": {}
+    "C:\\Users\\thoma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Finn\\Documents\\northcoders\\intro-week\\cs-strings-arrays-sprint\\cs-arrays-strings-lists\\cs-arrays-strings-lists.csproj",
+      "projectUniqueName": "C:\\Users\\thoma\\OneDrive\\Code\\Csharp\\week1\\csharp_basics\\day_4\\cs-strings-arrays-sprint\\cs-arrays-strings-lists\\cs-arrays-strings-lists.csproj",
       "projectName": "cs-arrays-strings-lists",
-      "projectPath": "C:\\Users\\Finn\\Documents\\northcoders\\intro-week\\cs-strings-arrays-sprint\\cs-arrays-strings-lists\\cs-arrays-strings-lists.csproj",
-      "packagesPath": "C:\\Users\\Finn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Finn\\Documents\\northcoders\\intro-week\\cs-strings-arrays-sprint\\cs-arrays-strings-lists\\obj\\",
+      "projectPath": "C:\\Users\\thoma\\OneDrive\\Code\\Csharp\\week1\\csharp_basics\\day_4\\cs-strings-arrays-sprint\\cs-arrays-strings-lists\\cs-arrays-strings-lists.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thoma\\OneDrive\\Code\\Csharp\\week1\\csharp_basics\\day_4\\cs-strings-arrays-sprint\\cs-arrays-strings-lists\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Finn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
